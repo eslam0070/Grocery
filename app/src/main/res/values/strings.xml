@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Grocery</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="not_have_account">Not have account? Sign Up</string>
+    <string name="recover_password">Recover Password</string>
+    <string name="recover">Recover</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="fullname">Full Name</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="cpassword">Confirm Password</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="complete_address">Complete Address</string>
+    <string name="are_you_a_seller_sing_up">Are you a seller? Sing Up as Seller</string>
+    <string name="shop_name">Shop Name</string>
+    <string name="delivery_fee">Delivery Fee</string>
+    <string name="name">Name</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="address">Address</string>
+    <string name="update">UPDATE</string>
+    <string name="shop_open">Shop Open</string>
+    <string name="add_product">Add Product</string>
+    <string name="title_product">Title</string>
+    <string name="description_product">Description</string>
+    <string name="quantity">Quantity e.g. kg, g etc.</string>
+    <string name="category">Category</string>
+    <string name="price">Price</string>
+    <string name="discount">Discount</string>
+    <string name="discount_price">Discount Price</string>
+    <string name="discount_note_e_g_10_off">Discount Note e.g. 10% Off</string>
+</resources>

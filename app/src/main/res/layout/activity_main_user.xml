@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.user.MainUserActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:background="@drawable/shape_rec01">
+
+        <TextView
+            android:id="@+id/nameTv_MainUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"/>
+
+        <ImageButton
+            android:id="@+id/logoutBtn_MainUser"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_power_white"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/edtProfileBtn_MainUser"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_toStartOf="@id/logoutBtn_MainUser"
+            android:src="@drawable/ic_edit_white"
+            android:background="@null"/>
+    </RelativeLayout>
+
+</RelativeLayout>

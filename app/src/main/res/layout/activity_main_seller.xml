@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.seller.MainSellerActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/shape_rec01">
+
+        <ImageButton
+            android:id="@+id/logoutBtn_MainSeller"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_power_white"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/edtProfileBtn_MainSeller"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_toStartOf="@id/logoutBtn_MainSeller"
+            android:src="@drawable/ic_edit_white"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/addProductBtn_MainSeller"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_toStartOf="@id/edtProfileBtn_MainSeller"
+            android:src="@drawable/ic_add_shopping_white"
+            android:background="@null"/>
+        
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileTv_MainSeller"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="10dp"
+            app:civ_border_color="@color/colorWhite"
+            app:civ_border_width="1dp"
+            android:src="@drawable/ic_person_gray"/>
+        
+        <TextView
+        android:id="@+id/nameTv_MainSeller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/profileTv_MainSeller"
+        android:text="@string/name"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/shopNameTv_MainSeller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameTv_MainSeller"
+            android:layout_toEndOf="@id/profileTv_MainSeller"
+            android:text="@string/shop_name"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/emailTv_MainSeller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shopNameTv_MainSeller"
+            android:layout_toEndOf="@id/profileTv_MainSeller"
+            android:text="@string/email"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>
